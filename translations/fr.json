@@ -1,0 +1,18 @@
+{
+  "header": {
+    "title": "Église Évangélique Baptiste",
+    "main": "Accueil",
+    "about": "À propos",
+    "news": "Nouvelles",
+    "sermons": "Prédications",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "address": "Adresse de l'église",
+    "phone": "Téléphone",
+    "exactAddress": "7 rue Petro Kalnychevsky, Kyiv, Ukraine, 02090"
+  },
+  "home": {
+    "welcome": "Bienvenue dans notre église !"
+  }
+}

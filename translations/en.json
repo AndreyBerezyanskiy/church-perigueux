@@ -1,0 +1,18 @@
+{
+  "header": {
+    "title": "Evangelical Baptist Church",
+    "main": "Home",
+    "about": "About",
+    "news": "News",
+    "sermons": "Sermons",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "address": "Church Address",
+    "phone": "Phone",
+    "exactAddress": "7 Petra Kalnyshevsky St, Kyiv, Ukraine, 02090"
+  },
+  "home": {
+    "welcome": "Welcome to our church!"
+  }
+}
