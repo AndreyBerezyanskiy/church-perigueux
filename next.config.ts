@@ -2,10 +2,7 @@ import {NextConfig} from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
  
 const nextConfig: NextConfig = {
-  transpilePackages: ["sanity", "next-sanity"],
-  experimental: {
-    serverComponentsExternalPackages: ["@sanity/client"],
-  },
+  transpilePackages: ["sanity", "next-sanity", "@sanity/ui"],
 };
  
 const withNextIntl = createNextIntlPlugin();
