@@ -3,7 +3,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
  
 const nextConfig: NextConfig = {
   experimental: {
-    serverComponentsExternalPackages: ["sanity", "next-sanity"],
+    transpilePackages: ["sanity", "next-sanity"],
   },
 };
  
