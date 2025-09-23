@@ -7,13 +7,16 @@
  * https://github.com/sanity-io/next-sanity
  */
 // app/studio/[[...tool]]/page.tsx
-"use client";
-import { NextStudio } from 'next-sanity/studio'
-import config from '../../../sanity.config'
+import { redirect } from "next/navigation";
+import { NextStudio } from "next-sanity/studio";
+import config from "../../../sanity.config";
 
-export const dynamic = 'force-static'
-
+const isProd = process.env.NODE_ENV === "production";
 
 export default function StudioPage() {
-  return <NextStudio config={config} />
+  if (isProd) {
+    redirect("https://church-perigueux.sanity.studio");
+  }
+
+  return <NextStudio config={config} />;
 }
