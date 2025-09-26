@@ -1,11 +1,13 @@
 {
   "header": {
-    "title": "Evangelical Baptist Church",
-    "main": "Home",
-    "about": "About",
-    "news": "News",
-    "sermons": "Sermons",
-    "contacts": "Contacts"
+    "title": "Evangelical|Baptist Church",
+    "nav": {
+      "main": { "label": "Home", "path": "" },
+      "about": { "label": "About", "path": "about" },
+      "news": { "label": "News", "path": "news" },
+      "sermons": { "label": "Sermons", "path": "sermons" },
+      "contacts": { "label": "Contacts", "path": "contacts" }
+    }
   },
   "footer": {
     "address": "Church Address",

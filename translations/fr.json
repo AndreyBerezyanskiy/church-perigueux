@@ -1,11 +1,13 @@
 {
   "header": {
-    "title": "Église Évangélique Baptiste",
-    "main": "Accueil",
-    "about": "À propos",
-    "news": "Nouvelles",
-    "sermons": "Prédications",
-    "contacts": "Contacts"
+    "title": "Église Évangélique|Baptiste",
+    "nav": {
+      "main": { "label": "Accueil", "path": "" },
+      "about": { "label": "À propos", "path": "a-propos" },
+      "news": { "label": "Nouvelles", "path": "nouvelles" },
+      "sermons": { "label": "Prédications", "path": "predications" },
+      "contacts": { "label": "Contacts", "path": "contacts" }
+    }
   },
   "footer": {
     "address": "Adresse de l'église",
