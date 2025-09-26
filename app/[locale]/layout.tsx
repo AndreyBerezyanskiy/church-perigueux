@@ -33,15 +33,12 @@ export default async function LocaleLayout({
 
   const messages = await getMessages({ locale });
 
-  console.log("LocaleLayout", { locale, messages });
-
-
   return (
     <html lang={locale}>
       <body className={`${inter.variable} min-h-screen flex flex-col`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header locale={locale} />
-          <main className="flex-1 container mx-auto p-4">{children}</main>
+          <main className="">{children}</main>
           <Footer locale={locale} />
         </NextIntlClientProvider>
       </body>

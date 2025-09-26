@@ -1,11 +1,13 @@
 {
   "header": {
-    "title": "Евангельская Баптистская Церковь",
-    "main": "Главная",
-    "about": "О церкви",
-    "news": "Новости",
-    "sermons": "Проповеди",
-    "contacts": "Контакты"
+    "title": "Евангельская|Баптистская Церковь",
+    "nav": {
+      "main": { "label": "Главная", "path": "" },
+      "about": { "label": "О церкви", "path": "o-tserkvi" },
+      "news": { "label": "Новости", "path": "novosti" },
+      "sermons": { "label": "Проповеди", "path": "propovedi" },
+      "contacts": { "label": "Контакты", "path": "kontakty" }
+    }
   },
   "footer": {
     "address": "Адрес церкви",
