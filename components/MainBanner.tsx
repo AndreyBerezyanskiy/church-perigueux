@@ -31,12 +31,12 @@ export default function MainBanner({ t }: { t: (key:string) => string }) {
               <span>10:00 {t("sundayService")}</span>
             </div>
             <div className="flex flex-col text-md">
-              <span className="font-bold">{t("suturday")}</span>
-              <span>14:00 {t("suturdayService")}</span>
-            </div>
-            <div className="mb-6 flex flex-col text-md">
               <span className="font-bold">{t("wednesday")}</span>
               <span>16:00 {t("wednesdayService")}</span>
+            </div>
+            <div className="mb-6 flex flex-col text-md">
+              <span className="font-bold">{t("suturday")}</span>
+              <span>14:00 {t("suturdayService")}</span>
             </div>
             <Link href={"/"} className="mb-4 md:mb-0 py-3 px-4 w-full md:w-8/12 bg-white text-amber-500 text-center">{t("broadcast")}</Link>
             <div className="flex justify-between text-sm">
