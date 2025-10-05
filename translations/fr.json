@@ -14,6 +14,30 @@
     "phone": "Téléphone",
     "exactAddress": "7 rue Petro Kalnychevsky, Kyiv, Ukraine, 02090"
   },
+"main_banner": {
+  "header": "En parlant avec Dieu,",
+  "subheader": "nous changeons le monde",
+  "aboutChurch": "Église Baptiste Évangélique de Périgueux",
+  "aboutButton": "À propos de l’église",
+  "shcedule": "Horaire des cultes",
+  "sunday": "Dimanche",
+  "sundayService": "Culte du dimanche et école du dimanche",
+  "wednesday": "Mercredi",
+  "wednesdayService": "Étude de la Parole de Dieu",
+  "suturday": "Samedi",
+  "suturdayService": "Réunion de prière",
+  "broadcast": "Diffusions",
+  "address": "Adresse de l’église",
+  "phone": "Téléphone",
+  "addressCity": "24660 - Saniac",
+  "addressStreet": "42 Cour Saint-Georges"
+},
+"how_to_god": {
+  "header": "Comment venir à Dieu ?",
+  "subheader": "Jérémie 33:3 Invoque-moi, et je te répondrai ; je t’annoncerai de grandes choses, des choses cachées que tu ne connais pas.",
+  "aboutPlan": "Ce que la Bible dit du plan du salut",
+  "planButton": "En savoir plus"
+},
   "home": {
     "welcome": "Bienvenue dans notre église !"
   }

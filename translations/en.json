@@ -14,6 +14,30 @@
     "phone": "Phone",
     "exactAddress": "7 Petra Kalnyshevsky St, Kyiv, Ukraine, 02090"
   },
+"main_banner": {
+  "header": "Communicating with God,",
+  "subheader": "we change the world",
+  "aboutChurch": "Evangelical Baptist Church of Périgueux",
+  "aboutButton": "About the Church",
+  "shcedule": "Service Schedule",
+  "sunday": "Sunday",
+  "sundayService": "Sunday Service and Sunday School",
+  "wednesday": "Wednesday",
+  "wednesdayService": "Bible Study",
+  "suturday": "Saturday",
+  "suturdayService": "Prayer Meeting",
+  "broadcast": "Broadcasts",
+  "address": "Church Address",
+  "phone": "Phone",
+  "addressCity": "24660 - Saniac",
+  "addressStreet": "42 Saint George Court"
+},
+"how_to_god": {
+  "header": "How to come to God?",
+  "subheader": "Jeremiah 33:3 Call to Me and I will answer you, and tell you great and unsearchable things you do not know.",
+  "aboutPlan": "What the Bible says about the plan of salvation",
+  "planButton": "Learn more"
+},
   "home": {
     "welcome": "Welcome to our church!"
   }

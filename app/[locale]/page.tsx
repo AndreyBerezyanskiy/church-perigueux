@@ -1,7 +1,8 @@
 // app/[locale]/page.tsx
-import { getLocale, getTranslations } from "next-intl/server";
-import Container from "@/components/Container";
+import { getTranslations } from "next-intl/server";
 import MainBanner from "@/components/MainBanner";
+import HowToGod from "@/components/HowToGod";
+import GoogleMap from "@/components/GoogleMap";
 
 export default async function HomePage({
   params,
@@ -9,9 +10,14 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "home" });
+  const tMainBanner = await getTranslations({ locale, namespace: "main_banner" });
+  const tHowToGod = await getTranslations({ locale, namespace: "how_to_god" });
 
   return (
-    <MainBanner />
+    <>
+      <MainBanner t={tMainBanner} />
+      <HowToGod t={tHowToGod} />
+      <GoogleMap />
+    </>
   );
 }
