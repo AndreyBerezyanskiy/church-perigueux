@@ -26,15 +26,16 @@ export default function MainBanner({ t }: { t: (key:string) => string }) {
           </div>
           <div className="flex flex-col gap-6 md:gap-10 justify-center">
             <span className="text-xl">{t("shcedule")}</span>
-            <div className="flex flex-col text-md">
+            <div className="flex flex-col text-md gap-2">
               <span className="font-bold">{t("sunday")}</span>
               <span>10:00 {t("sundayService")}</span>
+              <span>15:00 {t("sundayServiceFrench")}</span>
             </div>
-            <div className="flex flex-col text-md">
+            <div className="flex flex-col text-md gap-2">
               <span className="font-bold">{t("wednesday")}</span>
               <span>16:00 {t("wednesdayService")}</span>
             </div>
-            <div className="mb-6 flex flex-col text-md">
+            <div className="mb-6 flex flex-col text-md gap-2">
               <span className="font-bold">{t("suturday")}</span>
               <span>14:00 {t("suturdayService")}</span>
             </div>

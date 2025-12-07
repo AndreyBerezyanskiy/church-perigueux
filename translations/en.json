@@ -21,7 +21,8 @@
   "aboutButton": "About the Church",
   "shcedule": "Service Schedule",
   "sunday": "Sunday",
-  "sundayService": "Sunday Service and Sunday School",
+  "sundayService": "Ukrainian–Russian Sunday Service and Sunday School",
+  "sundayServiceFrench": "French Sunday Service and Sunday School",
   "wednesday": "Wednesday",
   "wednesdayService": "Prayer Service and Bible Study",
   "suturday": "Saturday",
@@ -30,7 +31,7 @@
   "address": "Church Address",
   "phone": "Phone",
   "addressCity": "24660 - Saniac",
-  "addressStreet": "42 Saint George Court"
+  "addressStreet": "42 Court Saint-Georges"
 },
 "how_to_god": {
   "header": "How to come to God?",

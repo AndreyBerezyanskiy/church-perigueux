@@ -21,7 +21,8 @@
     "aboutButton": "Про церкву",
     "shcedule": "Розклад служінь",
     "sunday": "Неділя",
-    "sundayService": "Недільне служіння та недільна школа",
+    "sundayService": "Недільне служіння українською-російською та недільна школа",
+    "sundayServiceFrench": "Недільне служіння французькою мовою та недільна школа",
     "wednesday": "Середа",
     "wednesdayService": "Молитовне служіння та розбір Слова Божого",
     "suturday": "Субота",
@@ -30,7 +31,7 @@
     "address": "Адреса церкви",
     "phone": "Телефон",
     "addressCity": "24660 - Санійяк",
-    "addressStreet": "42 двір Святого Георгія"
+    "addressStreet": "42 Cour Saint-Georges"
   },
   "how_to_god": {
     "header": "Як прийти до Бога?",
