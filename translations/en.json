@@ -12,7 +12,7 @@
   "footer": {
     "address": "Church Address",
     "phone": "Phone",
-    "exactAddress": "7 Petra Kalnyshevsky St, Kyiv, Ukraine, 02090"
+    "exactAddress": "42 Cour Saint-Georges, 24660 Sanilhac, France"
   },
 "main_banner": {
   "header": "Communicating with God,",
@@ -30,8 +30,8 @@
   "broadcast": "Broadcasts",
   "address": "Church Address",
   "phone": "Phone",
-  "addressCity": "24660 - Saniac",
-  "addressStreet": "42 Court Saint-Georges"
+  "addressCity": "24660 — Sanilhac",
+  "addressStreet": "42 Cour Saint-Georges"
 },
 "how_to_god": {
   "header": "How to come to God?",

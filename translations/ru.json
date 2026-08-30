@@ -12,7 +12,7 @@
   "footer": {
     "address": "Адрес церкви",
     "phone": "Телефон",
-    "exactAddress": "ул. Петра Калнышевского, 7, Киев, Украина, 02090"
+    "exactAddress": "42 Cour Saint-Georges, 24660 Саньяк, Франция"
   },
 "main_banner": {
   "header": "Общаясь с Богом,",
@@ -22,7 +22,7 @@
   "shcedule": "Расписание служений",
   "sunday": "Воскресенье",
   "sundayService": "Воскресное служение на украинском и русском языках и воскресная школа",
-  "sundayServiceFrench": "Воскресное служение на французком языке и воскресная школа",
+  "sundayServiceFrench": "Воскресное служение на французском языке и воскресная школа",
   "wednesday": "Среда",
   "wednesdayService": "Молитвенное служение и разбор Слова Божьего",
   "suturday": "Суббота",
@@ -30,7 +30,7 @@
   "broadcast": "Трансляции",
   "address": "Адрес церкви",
   "phone": "Телефон",
-  "addressCity": "24660 - Санийяк",
+  "addressCity": "24660 — Саньяк",
   "addressStreet": "42 Cour Saint-Georges"
 },
 "how_to_god": {
