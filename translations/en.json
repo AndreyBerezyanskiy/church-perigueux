@@ -33,13 +33,26 @@
   "addressCity": "24660 — Sanilhac",
   "addressStreet": "42 Cour Saint-Georges"
 },
-"how_to_god": {
+  "how_to_god": {
   "header": "How to come to God?",
   "subheader": "Jeremiah 33:3 Call to Me and I will answer you, and tell you great and unsearchable things you do not know.",
   "aboutPlan": "What the Bible says about the plan of salvation",
   "planButton": "Learn more"
-},
+  },
+  "content": {
+    "news": { "title": "News" },
+    "event": { "title": "Events" },
+    "sermon": { "title": "Sermons" },
+    "blogPost": { "title": "Blog" },
+    "gallery": { "title": "Photo galleries" },
+    "readMore": "Read more",
+    "empty": "No published content yet.",
+    "watchOnYoutube": "Watch on YouTube"
+  },
   "home": {
-    "welcome": "Welcome to our church!"
+    "welcome": "Welcome to our church!",
+    "latestNews": "Latest news",
+    "latestSermons": "Latest sermons",
+    "upcomingEvents": "Upcoming events"
   }
 }

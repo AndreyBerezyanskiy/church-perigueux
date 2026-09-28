@@ -6,6 +6,7 @@ import { structureTool } from "sanity/structure";
 import { languages } from "./src/config/languages";
 import { readStudioEnvironment } from "./src/config/environment";
 import { schemaTypes, translatedSchemaTypes } from "./src/schemaTypes";
+import { structure } from "./src/structure";
 
 const environment = readStudioEnvironment({
   SANITY_STUDIO_PROJECT_ID: process.env.SANITY_STUDIO_PROJECT_ID,
@@ -17,7 +18,7 @@ export default defineConfig({
   title: "Église Baptiste Évangélique de Périgueux",
   ...environment,
   plugins: [
-    structureTool(),
+    structureTool({ structure }),
     visionTool(),
     documentInternationalization({
       supportedLanguages: languages,

@@ -33,13 +33,26 @@
   "addressCity": "24660 — Sanilhac",
   "addressStreet": "42 Cour Saint-Georges"
 },
-"how_to_god": {
+  "how_to_god": {
   "header": "Comment venir à Dieu ?",
   "subheader": "Jérémie 33:3 Invoque-moi, et je te répondrai ; je t’annoncerai de grandes choses, des choses cachées que tu ne connais pas.",
   "aboutPlan": "Ce que la Bible dit du plan du salut",
   "planButton": "En savoir plus"
-},
+  },
+  "content": {
+    "news": { "title": "Actualités" },
+    "event": { "title": "Événements" },
+    "sermon": { "title": "Prédications" },
+    "blogPost": { "title": "Blog" },
+    "gallery": { "title": "Galeries photo" },
+    "readMore": "Lire la suite",
+    "empty": "Aucun contenu publié pour le moment.",
+    "watchOnYoutube": "Regarder sur YouTube"
+  },
   "home": {
-    "welcome": "Bienvenue dans notre église !"
+    "welcome": "Bienvenue dans notre église !",
+    "latestNews": "Dernières actualités",
+    "latestSermons": "Dernières prédications",
+    "upcomingEvents": "Prochains événements"
   }
 }

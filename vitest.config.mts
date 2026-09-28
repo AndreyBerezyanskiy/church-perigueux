@@ -12,7 +12,11 @@ export default defineConfig({
     exclude: ["studio/**", "node_modules/**"],
     coverage: {
       provider: "v8",
-      include: ["i18n/config.ts", "sanity/lib/env.ts"],
+      include: [
+        "i18n/config.ts",
+        "sanity/lib/env.ts",
+        "sanity/content-routes.ts",
+      ],
       thresholds: {
         branches: 90,
         functions: 90,

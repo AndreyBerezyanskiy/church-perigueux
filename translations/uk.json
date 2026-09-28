@@ -39,7 +39,20 @@
     "aboutPlan": "Що говорить Біблія про план спасіння",
     "planButton": "Детальніше"
   },
+  "content": {
+    "news": { "title": "Новини" },
+    "event": { "title": "Події" },
+    "sermon": { "title": "Проповіді" },
+    "blogPost": { "title": "Блог" },
+    "gallery": { "title": "Фотогалереї" },
+    "readMore": "Читати далі",
+    "empty": "Поки що немає опублікованих матеріалів.",
+    "watchOnYoutube": "Дивитися на YouTube"
+  },
   "home": {
-    "welcome": "Ласкаво просимо до нашої церкви!"
+    "welcome": "Ласкаво просимо до нашої церкви!",
+    "latestNews": "Останні новини",
+    "latestSermons": "Останні проповіді",
+    "upcomingEvents": "Найближчі події"
   }
 }

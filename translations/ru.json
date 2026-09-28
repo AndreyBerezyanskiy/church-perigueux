@@ -33,13 +33,26 @@
   "addressCity": "24660 — Саньяк",
   "addressStreet": "42 Cour Saint-Georges"
 },
-"how_to_god": {
+  "how_to_god": {
   "header": "Как прийти к Богу?",
   "subheader": "Иеремия 33:3 Воззови ко Мне, и Я отвечу тебе, и покажу тебе великое и недоступное, чего ты не знаешь.",
   "aboutPlan": "Что говорит Библия о плане спасения",
   "planButton": "Подробнее"
-},
+  },
+  "content": {
+    "news": { "title": "Новости" },
+    "event": { "title": "События" },
+    "sermon": { "title": "Проповеди" },
+    "blogPost": { "title": "Блог" },
+    "gallery": { "title": "Фотогалереи" },
+    "readMore": "Читать далее",
+    "empty": "Пока нет опубликованных материалов.",
+    "watchOnYoutube": "Смотреть на YouTube"
+  },
   "home": {
-    "welcome": "Добро пожаловать в нашу церковь!"
+    "welcome": "Добро пожаловать в нашу церковь!",
+    "latestNews": "Последние новости",
+    "latestSermons": "Последние проповеди",
+    "upcomingEvents": "Ближайшие события"
   }
 }
