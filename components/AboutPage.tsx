@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowLeft, BookOpen, Church, Cross } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
 import Container from "./Container";
 
@@ -60,9 +60,6 @@ export default function AboutPage({
         <Container>
           <div className="grid gap-8 md:grid-cols-[0.8fr_1.2fr] md:items-end">
             <div>
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-full bg-amber-500 text-white">
-                <BookOpen aria-hidden="true" size={24} />
-              </div>
               <h2 className="text-3xl font-semibold text-neutral-900 md:text-4xl">
                 {beliefsTitle}
               </h2>
@@ -97,11 +94,6 @@ export default function AboutPage({
             ))}
           </div>
 
-          <div className="mt-10 flex items-center justify-center gap-5 border-y border-neutral-200 py-10 text-amber-600">
-            <Cross aria-hidden="true" size={28} strokeWidth={1.5} />
-            <Church aria-hidden="true" size={34} strokeWidth={1.5} />
-            <BookOpen aria-hidden="true" size={28} strokeWidth={1.5} />
-          </div>
         </Container>
       </section>
     </>
