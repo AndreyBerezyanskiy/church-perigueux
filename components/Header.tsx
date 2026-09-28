@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 // import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
-import { Locale, locales, defaultLocale } from "@/i18n/config";
+import { Locale } from "@/i18n/config";
 import Container from "./Container";
 import { getTranslations } from "next-intl/server";
 import SocialLinks from "./SocialLinks";

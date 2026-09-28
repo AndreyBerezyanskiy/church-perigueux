@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Église Baptiste Évangélique de Périgueux
 
-## Getting Started
+Multilingual church website with a separate Sanity Studio application.
 
-First, run the development server:
+## Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- The repository root contains the Next.js website.
+- `studio/` contains the independent Sanity Studio application.
+- Sanity Content Lake stores published content and drafts.
+- French (`fr`) is the primary locale. Ukrainian, English, and Russian are also supported.
+
+Keeping Studio separate prevents its editor and CLI dependencies from becoming part of the website runtime while keeping both applications in one repository.
+
+## Requirements
+
+- Node.js 22.19 or newer
+- npm 10 or newer
+- A Sanity project with a `production` dataset
+
+## Website setup
+
+Copy `.env.example` to `.env.local` and add the Sanity project values:
+
+```env
+NEXT_PUBLIC_SANITY_PROJECT_ID=your-project-id
+NEXT_PUBLIC_SANITY_DATASET=production
+SANITY_API_READ_TOKEN=
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`SANITY_API_READ_TOKEN` is only required later for authenticated draft previews. It must never use the `NEXT_PUBLIC_` prefix.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install and run the website:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+npm run dev
+```
 
-## Learn More
+The website is available at `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## Studio setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Create or select a project at [sanity.io/manage](https://sanity.io/manage). Copy `studio/.env.example` to `studio/.env.local`:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```env
+SANITY_STUDIO_PROJECT_ID=your-project-id
+SANITY_STUDIO_DATASET=production
+```
 
-## Deploy on Vercel
+Then run Studio:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+cd studio
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Studio is available at `http://localhost:3333`. The first launch may ask you to sign in to Sanity and authorize the project.
+
+Content schemas are intentionally added incrementally. The initial setup only defines the shared environment, locales, and translation infrastructure.
+
+## Quality checks
+
+Website:
+
+```bash
+npm run check
+npm run test:coverage
+npm run build
+```
+
+Studio:
+
+```bash
+cd studio
+npm run check
+npm run build
+```
+
+New application logic should be accompanied by tests. Coverage thresholds are enforced for the foundational configuration code and will expand with the content layer.
