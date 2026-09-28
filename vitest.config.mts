@@ -13,7 +13,10 @@ export default defineConfig({
     coverage: {
       provider: "v8",
       include: [
+        "components/AboutPage.tsx",
         "i18n/config.ts",
+        "i18n/localized-path.ts",
+        "i18n/static-routes.ts",
         "sanity/lib/env.ts",
         "sanity/content-routes.ts",
       ],

@@ -2,6 +2,8 @@
 
 import { useRouter, usePathname } from "next/navigation";
 import { locales } from "@/i18n/config";
+import type { Locale } from "@/i18n/config";
+import { getLocalizedPath } from "@/i18n/localized-path";
 import {
   Select,
   SelectContent,
@@ -15,9 +17,7 @@ export default function LanguageSelect({ locale }: { locale: string }) {
   const pathname = usePathname();
 
   const handleChange = (newLocale: string) => {
-    const segments = pathname.split("/");
-    segments[1] = newLocale;
-    router.push(segments.join("/"));
+    router.push(getLocalizedPath(pathname, newLocale as Locale));
   };
 
   return (

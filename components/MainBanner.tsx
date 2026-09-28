@@ -1,9 +1,11 @@
 import Image from "next/image";
 import Container from "./Container";
 import Link from "next/link";
+import type { Locale } from "@/i18n/config";
+import { getStaticPagePath } from "@/i18n/static-routes";
 
 
-export default function MainBanner({ t }: { t: (key:string) => string }) {
+export default function MainBanner({ t, locale }: { t: (key:string) => string; locale: Locale }) {
   return (
     <section className="relative text-white">
       <div className="absolute inset-0">
@@ -22,7 +24,7 @@ export default function MainBanner({ t }: { t: (key:string) => string }) {
             <h1 className="text-4xl">{t("header")}</h1>
             <h2 className="mb-10 md:mb-20 text-4xl">{t("subheader")}</h2>
             <span className=" mb-4">{t("aboutChurch")}</span>
-            <Link className="py-3 px-4 w-full md:w-8/12 bg-white text-amber-500  text-center" href={"/main"}>{ t("aboutButton") }</Link>
+            <Link className="py-3 px-4 w-full md:w-8/12 bg-white text-amber-500  text-center" href={getStaticPagePath(locale, "about")}>{ t("aboutButton") }</Link>
           </div>
           <div className="flex flex-col gap-6 md:gap-10 justify-center">
             <span className="text-xl">{t("shcedule")}</span>

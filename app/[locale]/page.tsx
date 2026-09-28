@@ -25,7 +25,7 @@ export default async function HomePage({
 
   return (
     <>
-      <MainBanner t={tMainBanner} />
+      <MainBanner t={tMainBanner} locale={locale} />
       <HowToGod t={tHowToGod} />
       <LatestContent title={tHome("latestNews")} items={latestContent.news} type="news" locale={locale} />
       <LatestContent title={tHome("latestSermons")} items={latestContent.sermons} type="sermon" locale={locale} />
